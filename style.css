@@ -1,0 +1,120 @@
+p { 
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: left;
+    font-size: 1.25em;
+}
+
+h1 {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: left;
+    font-size: 4em;
+    
+}
+
+h2 {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: left;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: left;
+    font-size: 1.5em;
+}
+
+a {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: center;
+    font-size: 1em;
+}
+
+
+grid {
+  border: 2px; black;
+  height: 420px;
+  width: 480px;
+  display: grid;
+  grid-columns: 25% 25% 1fr 1fr;
+  grid-rows: 420px, 480px;
+  grid-row-gap: 25px;
+  grid-column-gap: 15px;
+}  
+
+.box {
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  border:1px solid black;
+}
+
+.a {
+  grid-columns:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 5;
+}
+
+.b {
+  grid-column:start, 3;
+  grid-column:end, 5;
+  grid-row:start, 1;
+  grid-row:end, 2;
+}
+
+.c {
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+.d {
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+
+
+
+img .Ramos {
+    background-image: url(1-KVK482jWF3Tek4RnEiGZVQ.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 524px;
+    width: 523px;
+}
+
+img .Madrid {
+    background-image: url(Real-Madrid-Wallpaper-22.jpg);
+    background-size: cover;
+    background-position: top, right;
+    height: 239px;
+    width: 424px;
+}
+
+img .background {
+  background-image: url(red-and-blue-ink-in-watercreative-slow-motion-on-a-white-background_nzunubd_x__F0003.jpg);
+  background-size: all, cover;
+  background-position: center;
+}
+
+img .welcome {
+  background-image: url(https://www.askideas.com/media/13/Welcome-3d-Picture.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 239px;
+  width: 424px;
+}
+
+
+
+
+

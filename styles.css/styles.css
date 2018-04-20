@@ -1,0 +1,146 @@
+p { 
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: center;
+    font-size: 50;
+}
+
+h1 {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: center;
+    font-size: 2em;
+    
+}
+
+h2 {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: center;
+    font-size: 1em;
+}
+
+h3 {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: center;
+    font-size: 1em;
+}
+
+a {
+    font-family: Arial;
+    color: darkblue;
+    text-align-last: center;
+    font-size: 1em;
+}
+
+
+grid {
+  border: 2px, blue solid;
+  height: 500px;
+  width: 500px;
+  display: grid;
+  grid-columns: 25% 25% 1fr 1fr;
+  grid-rows: 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+}  
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+.a {
+  grid-columns:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 5;
+}
+
+.b {
+  grid-column:start, 3;
+  grid-column:end, 5;
+  grid-row:start, 1;
+  grid-row:end, 2;
+}
+
+.c {
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+.d {
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+.e {
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+.f {
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+.g { 
+  grid-column:start, 1;
+  grid-column:end, 2;
+  grid-row:start, 1;
+  grid-row:end, 3;
+}
+
+
+
+
+
+img .Ramos {
+    background-image: url(1-KVK482jWF3Tek4RnEiGZVQ.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 524px;
+    width: 523px;
+}
+
+img .Madrid {
+    background-image: url(Real-Madrid-Wallpaper-22.jpg);
+    background-size: cover;
+    background-position:top,right;
+    height: 239px;
+    width: 424px;
+}
+
+img .background {
+  background-image: url(img00.deviantart.net/4e56/i/2017/183/4/a/__10__red_and_blue_fire_and_ice_color_blend_by_boltdrawz-dbev07t.png);
+  background-size: cover;
+  background-position:center;
+  height: 115px;
+  width: 213px;
+}
+
+img .welcome {
+  background-image: url(https://www.askideas.com/media/13/Welcome-3d-Picture.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 239px;
+  width: 424px;
+}
+
+
+
+
+
+
+
